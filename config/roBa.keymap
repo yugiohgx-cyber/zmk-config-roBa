@@ -132,7 +132,7 @@
         KIGOU {
             bindings = <
 &kp N1          &kp N2           &kp N3        &kp N4      &kp N5                                        &kp N6            &kp N7             &kp N8         &kp N9     &kp N0
-&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)  &kp RS(N5)  &kp RS(ESC)          &kp RS(N6)   &kp RS(N7)        &kp RS(N8)         &kp RS(N9)     &kp EQUAL  &kp TILDE
+&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)  &kp RS(N5)  &kp ESC              &kp RS(N6)   &kp RS(N7)        &kp RS(N8)         &kp RS(N9)     &kp EQUAL  &kp TILDE
 &kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp SPACE   &kp SPACE   &kp RIGHT_SHIFT      &kp AT_SIGN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp COLON  &kp PIPE
 &kp BSLH        &kp APOS         &kp LCTRL     &trans      &trans      &trans               &trans       &trans                                                         &kp UNDERSCORE
             >;
