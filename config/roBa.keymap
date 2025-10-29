@@ -111,10 +111,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                          &kp T                                                        &kp Y        &kp U  &lt 4 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                          &kp G        &kp ESCAPE                       &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &mt RIGHT_SHIFT TAB              &kp EXCL       &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_HENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q      &kp W         &kp E         &kp R                          &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F                          &kp G        &kp ESCAPE                       &kp RS(SEMICOLON)  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z      &kp X         &kp C         &kp V                          &kp B        &mt RIGHT_SHIFT TAB              &kp EXCL           &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_HENKAN      &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -122,10 +122,10 @@
 
         NUMandFUNCTION {
             bindings = <
-&kp MINUS  &kp NUMBER_7  &kp N8        &kp N9  &kp PLUS                           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp SLASH  &kp N4        &kp NUMBER_5  &kp N6  &kp ASTRK  &kp ESC        &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp DOT    &kp EQUAL      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans     &trans        &trans        &trans  &trans     &trans         &trans   &trans                          &kp F12
+&kp MINUS  &kp NUMBER_7  &kp N8        &kp N9  &kp RS(SEMICOLON)                          &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp SLASH  &kp N4        &kp NUMBER_5  &kp N6  &kp ASTRK          &kp ESC        &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp DOT            &kp EQUAL      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans     &trans        &trans        &trans  &trans             &trans         &trans   &trans                          &kp F12
             >;
         };
 
