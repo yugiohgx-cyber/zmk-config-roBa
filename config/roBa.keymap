@@ -120,21 +120,21 @@
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
-        NUMandFUNCTION {
+        FANCnNUM {
             bindings = <
-&kp MINUS  &kp NUMBER_7  &kp N8        &kp N9  &kp RS(SEMICOLON)                          &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp SLASH  &kp N4        &kp NUMBER_5  &kp N6  &kp ASTRK          &kp ESC        &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp DOT            &kp EQUAL      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans     &trans        &trans        &trans  &trans             &trans         &trans   &trans                          &kp F12
+&kp F1   &kp F2   &kp F3     &kp F4     &kp F5                             &kp N7  &kp N8  &kp N9  &kp BSPC   &kp MINUS
+&kp F6   &kp F7   &kp F8     &kp F9     &kp F10    &kp ESC        &kp DOT  &kp N4  &kp N5  &kp N6  &kp ENTER  &kp RS(SEMI)
+&kp F11  &kp F12  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE      &kp N0   &kp N1  &kp N2  &kp N3  &kp DOT    &kp RS(COLON)
+&trans   &trans   &trans     &trans     &trans     &trans         &trans   &trans                             &kp FSLH
             >;
         };
 
         KIGOU {
             bindings = <
-&kp N1          &kp N2           &kp N3        &kp N4      &kp N5                                        &kp N6            &kp N7             &kp N8         &kp N9     &kp N0
-&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)  &kp RS(N5)  &kp ESC              &kp RS(N6)   &kp RS(N7)        &kp RS(N8)         &kp RS(N9)     &kp EQUAL  &kp TILDE
-&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp SPACE   &kp SPACE   &kp RIGHT_SHIFT      &kp AT_SIGN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp COLON  &kp PIPE
-&kp BSLH        &kp APOS         &kp LCTRL     &trans      &trans      &trans               &trans       &trans                                                         &kp UNDERSCORE
+&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)  &kp RS(N5)                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N8         &kp N9     &kp N0
+&kp RS(N6)      &kp RS(N7)       &kp RS(N8)    &kp RS(N9)  &kp RS(N0)  &kp ESC              &kp RS(N6)   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(N9)     &kp EQUAL  &kp TILDE
+&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp SPACE   &kp SPACE   &kp RIGHT_SHIFT      &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp COLON  &kp PIPE
+&trans          &trans           &trans        &trans      &trans      &trans               &trans       &trans                                                                 &kp UNDERSCORE
             >;
         };
 
