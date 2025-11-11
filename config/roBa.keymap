@@ -153,10 +153,10 @@
 
         KIGOU {
             bindings = <
-&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)  &kp RS(N5)                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N8         &kp N9     &kp N0
-&kp RS(N6)      &kp RS(N7)       &kp RS(N8)    &kp RS(N9)  &kp RS(N0)  &kp ESC              &kp RS(N6)        &kp LESS_THAN         &kp GREATER_THAN       &kp RS(N9)     &kp EQUAL  &kp TILDE
-&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp SPACE   &kp SPACE   &kp RIGHT_SHIFT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp RIGHT_BRACKET      &kp SEMICOLON  &kp COLON  &kp PIPE
-&trans          &trans           &trans        &trans      &trans      &trans               &trans            &trans                                                                 &kp UNDERSCORE
+&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)        &kp RS(N5)                                                &kp RS(NUMBER_8)   &kp RS(NUMBER_9)   &trans  &trans  &trans
+&kp RS(N6)      &kp RS(N7)       &kp RS(N8)    &kp RS(N9)        &kp RS(N0)         &kp ESC              &kp RS(N6)        &kp LESS_THAN      &kp GREATER_THAN   &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp RS(NUMBER_6)  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans
+&trans          &trans           &trans        &trans            &trans             &trans               &trans            &trans                                                &trans
             >;
         };
 
