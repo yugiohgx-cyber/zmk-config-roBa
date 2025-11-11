@@ -143,9 +143,9 @@
 
         KIGOU {
             bindings = <
-&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)        &kp RS(N5)                                               &kp RS(NUMBER_8)   &kp RS(NUMBER_9)  &trans  &kp LS(EQUAL)  &kp MINUS
+&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)        &kp RS(N5)                                               &kp RS(NUMBER_8)   &kp RS(NUMBER_9)  &trans  &kp LS(EQUAL)  &trans
 &kp RS(N6)      &kp RS(N7)       &kp RS(N8)    &kp RS(N9)        &kp RS(N0)        &kp ESC              &kp RS(N6)        &kp LESS_THAN      &kp GREATER_THAN  &trans  &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp RS(NUMBER_6)  &kp LEFT_BRACKET  &kp RIGHT_SHIFT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &trans  &kp ASTERISK   &kp PIPE
+&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp RS(NUMBER_6)  &kp LEFT_BRACKET  &kp RIGHT_SHIFT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &trans  &trans         &trans
 &trans          &trans           &trans        &trans            &trans            &trans               &trans            &trans                                                      &trans
             >;
         };
