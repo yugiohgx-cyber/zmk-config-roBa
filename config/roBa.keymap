@@ -146,17 +146,17 @@
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BSPC   &kp MINUS
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp ESC      &kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ENTER  &kp RS(SEMI)
-&kp F11  &kp F12  &trans  &trans  &trans   &trans       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp RS(SQT)
+&kp F11  &kp F12  &trans  &trans  &trans   &trans       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp DOUBLE_QUOTES
 &trans   &trans   &trans  &trans  &trans   &trans       &trans           &trans                                                        &kp FSLH
             >;
         };
 
         KIGOU {
             bindings = <
-&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)        &kp RS(N5)                                                &kp RS(NUMBER_8)   &kp RS(NUMBER_9)   &trans  &trans  &trans
-&kp RS(N6)      &kp RS(N7)       &kp RS(N8)    &kp RS(N9)        &kp RS(N0)         &kp ESC              &kp RS(N6)        &kp LESS_THAN      &kp GREATER_THAN   &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp RS(NUMBER_6)  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans
-&trans          &trans           &trans        &trans            &trans             &trans               &trans            &trans                                                &trans
+&kp RS(N1)      &kp RS(N2)       &kp RS(N3)    &kp RS(N4)        &kp RS(N5)                                                &kp RS(NUMBER_8)   &kp RS(NUMBER_9)  &trans  &kp LS(EQUAL)  &kp MINUS
+&kp RS(N6)      &kp RS(N7)       &kp RS(N8)    &kp RS(N9)        &kp RS(N0)         &kp ESC              &kp RS(N6)        &kp LESS_THAN      &kp GREATER_THAN  &trans  &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp EXCLAMATION  &kp QUESTION  &kp RS(NUMBER_6)  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &trans  &kp ASTERISK   &kp PIPE
+&trans          &trans           &trans        &trans            &trans             &trans               &trans            &trans                                                      &trans
             >;
         };
 
