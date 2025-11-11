@@ -146,7 +146,7 @@
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BSPC   &kp MINUS
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp ESC      &kp DOT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ENTER  &kp RS(SEMI)
-&kp F11  &kp F12  &trans  &trans  &trans   &trans       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp RS(COLON)
+&kp F11  &kp F12  &trans  &trans  &trans   &trans       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp RS(SQT)
 &trans   &trans   &trans  &trans  &trans   &trans       &trans           &trans                                                        &kp FSLH
             >;
         };
